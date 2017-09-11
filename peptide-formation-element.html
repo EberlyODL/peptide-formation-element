@@ -1,7 +1,7 @@
 <link rel="import" href="../polymer/polymer.html">
 <link rel="import" href="../lrndesign-animationctrl/lrndesign-animationctrl.html">
-
 <link rel="import" href="../greensock-cdn/greensock-cdn.html">
+<link rel="import" href="../animation-shared-styles/animation-shared-styles.html">
 
 <!--
 `peptide-formation-element`
@@ -12,7 +12,7 @@
 
 <dom-module id="peptide-formation-element">
   <template>
-    <style>
+    <style is="custom-style" include="animation-shared-styles">
       :host {
         --fat-synthesis-element-bg-color: #f5f5f5;
         display: block;
